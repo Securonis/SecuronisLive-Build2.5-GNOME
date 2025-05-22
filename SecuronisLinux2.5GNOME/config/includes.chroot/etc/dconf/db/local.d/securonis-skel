@@ -1,0 +1,123 @@
+[org/gnome/shell]
+enabled-extensions=['blur-my-shell@aunetx', 'dash-to-dock@micxgx.gmail.com', 'gsconnect@andyholmes.github.io', 'user-theme@gnome-shell-extensions.gcampax.github.com']
+disabled-extensions=['compiz-windows-effect@hermes83.github.com', 'desktop-cube@schneegans.github.com', 'dash-to-panel@jderose9.github.com', 'arcmenu@arcmenu.com', 'trayIconsReloaded@selfmade.pl', 'ding@rastersoft.com']
+disable-extension-version-validation=true
+disable-user-extensions=false
+favorite-apps=['calamares-install-debian.desktop', 'firefox-esr.desktop', 'org.gnome.Nautilus.desktop', 'seconionis.desktop', 'securonis-dnscrypt.desktop', 'i2p-routermenu.desktop', 'system-manager.desktop']
+
+[org/gnome/shell/extensions/blur-my-shell/panel]
+force-light-text=true
+
+[org/gnome/shell/extensions/arcmenu]
+application-shortcuts=[{'name': 'Software', 'icon': 'org.gnome.Software', 'id': 'ArcMenu_Software'}, {'name': 'Settings', 'icon': 'org.gnome.Settings', 'id': 'org.gnome.Settings.desktop'}, {'name': 'Tweaks', 'icon': 'org.gnome.tweaks', 'id': 'org.gnome.tweaks.desktop'}, {'name': 'Terminal', 'icon': 'org.gnome.Terminal', 'id': 'org.gnome.Terminal.desktop'}, {'name': 'Activities Overview', 'icon': 'view-fullscreen-symbolic', 'id': 'ArcMenu_ActivitiesOverview'}, {'name': 'Extension Manager', 'icon': 'com.mattjakeman.ExtensionManager', 'id': 'com.mattjakeman.ExtensionManager.desktop'}]
+application-shortcuts-list=@aas []
+button-item-icon-size='Small'
+custom-menu-button-icon-size=23.0
+disable-recently-installed-apps=true
+distro-icon=6
+extra-categories=[(0, true), (1, true), (2, true), (3, true), (4, false)]
+menu-background-color='#262830'
+menu-border-color='rgb(60,60,60)'
+menu-button-active-fg-color=(true, 'rgb(26,95,180)')
+menu-button-appearance='Icon'
+menu-button-border-radius=(true, 25)
+menu-button-fg-color=(false, 'rgb(26,95,180)')
+menu-button-icon='Distro_Icon'
+menu-button-position-offset=0
+menu-foreground-color='#e0e0e8'
+menu-item-active-bg-color='#004397'
+menu-item-active-fg-color=' #d6e2ff'
+menu-item-grid-icon-size='Medium'
+menu-item-hover-bg-color=' #004397'
+menu-item-hover-fg-color=' #d6e2ff'
+menu-layout='Raven'
+menu-separator-color='rgba(255,255,255,0.1)'
+override-menu-theme=true
+pinned-app-list=@as []
+pinned-apps=[{'name': 'Firefox', 'id': 'firefox.desktop'}, {'name': 'Files', 'id': 'org.gnome.Nautilus.desktop'}, {'name': 'Seconionis', 'id': 'seconionis.desktop'}, {'name': 'DNSCrypt-Proxy', 'id': 'securonis-dnscrypt.desktop'}, {'name': 'System Manager', 'id': 'system-manager.desktop'}, {'name': 'PxrtalCrypt', 'id': 'pxrtalcrypt.desktop'}]
+prefs-visible-page=0
+recently-installed-apps=['appimagekit_75fbd7d7fd2bfaf1c426bf2adb037d19-balenaEtcher.desktop']
+search-entry-border-radius=(true, 25)
+shortcut-icon-type='Full_Color'
+
+[org/gnome/shell/extensions/dash-to-panel]
+animate-appicon-hover=false
+animate-appicon-hover-animation-extent={'RIPPLE': 4, 'PLANK': 4, 'SIMPLE': 1}
+animate-appicon-hover-animation-type='PLANK'
+appicon-margin=8
+appicon-padding=4
+available-monitors=[0]
+dot-position='BOTTOM'
+hotkeys-overlay-combo='TEMPORARILY'
+isolate-workspaces=true
+leftbox-padding=-1
+panel-anchors='{"0":"MIDDLE"}'
+panel-element-positions='{"0":[{"element":"activitiesButton","visible":false,"position":"stackedTL"},{"element":"leftBox","visible":true,"position":"stackedTL"},{"element":"showAppsButton","visible":true,"position":"stackedTL"},{"element":"taskbar","visible":true,"position":"stackedTL"},{"element":"centerBox","visible":true,"position":"stackedBR"},{"element":"rightBox","visible":true,"position":"stackedBR"},{"element":"dateMenu","visible":true,"position":"stackedBR"},{"element":"systemMenu","visible":true,"position":"stackedBR"},{"element":"desktopButton","visible":true,"position":"stackedBR"}]}'
+panel-lengths='{"0":100}'
+panel-sizes='{"0":48}'
+primary-monitor=0
+status-icon-padding=-1
+stockgs-keep-dash=false
+stockgs-keep-top-panel=false
+stockgs-panelbtn-click-only=false
+trans-panel-opacity=0.20000000000000001
+trans-use-custom-gradient=false
+trans-use-custom-opacity=true
+trans-use-dynamic-opacity=true
+tray-padding=-1
+window-preview-title-position='TOP'
+
+[org/fedorahosted/background-logo-extension]
+logo-always-visible=true
+logo-border=uint32 46
+logo-file='/etc/skel/.config/neofetch/logo.png'
+logo-file-dark='/etc/skel/.config/neofetch/logo.png'
+logo-position='bottom-right'
+logo-opacity=uint32 137
+logo-size=10.485232067510548
+
+[org/gnome/shell/extensions/dash-to-dock]
+background-color='rgb(198,70,0)'
+background-opacity=0.80000000000000004
+custom-background-color=false
+dash-max-icon-size=48
+dock-position='BOTTOM'
+height-fraction=0.90000000000000002
+max-alpha=0.80000000000000004
+preferred-monitor=-2
+preferred-monitor-by-connector='Virtual-1'
+transparency-mode='DYNAMIC'
+
+[org/gnome/desktop/wm/preferences]
+button-layout='appmenu:minimize,close'
+
+[org/gnome/desktop/interface]
+gtk-theme='Adwaita-dark'
+color-scheme='prefer-dark'
+
+[org/gnome/desktop/background]
+color-shading-type='solid'
+picture-options='zoom'
+picture-uri='file:///usr/share/backgrounds/default.png'
+picture-uri-dark='file:///usr/share/backgrounds/default.png'
+primary-color='#000000000000'
+secondary-color='#000000000000'
+
+[org/gnome/shell/extensions/user-theme]
+name='Adwaita-dark'
+
+[org/gnome/terminal/legacy/profiles:/:b1dcc9dd-5262-4d8d-a863-c897e6d979b9]
+visible-name='Securonis Terminal'
+foreground-color='#0000FF'
+background-color='#000000'
+bold-color='#000000'
+use-theme-colors=false
+use-transparent-background=true
+background-transparency-percent=9 
+palette=['#2E3434', '#CC0000', '#4E9A06', '#C4A000', '#3465A4', '#75507B', '#06989A', '#D3D7CF', '#555753', '#EF2929', '#8AE234', '#FCE94F', '#729FCF', '#AD7FA8', '#34E2E2', '#EEEEEC']
+scrollbar-policy='always'
+scrollback-unlimited=true
+scrollback-lines=16384
+
+[org/gnome/desktop/peripherals/touchpad]
+tap-to-click=true
